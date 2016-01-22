@@ -1,16 +1,16 @@
 from __future__ import unicode_literals
 app_name = "frappe"
-app_title = "Frappe Framework"
-app_publisher = "Frappe Technologies Pvt. Ltd."
-app_description = "Full stack web framework with Python, Javascript, MariaDB, Redis, Node"
+app_title = "Framework"
+app_publisher = "infocito"
+app_description = "infocito"
 
 app_icon = "octicon octicon-circuit-board"
 app_version = "6.19.2"
 app_color = "orange"
-source_link = "https://github.com/frappe/frappe"
+source_link = ""
 app_license = "MIT"
 
-app_email = "info@frappe.io"
+app_email = "service@infocito.com"
 
 before_install = "frappe.utils.install.before_install"
 after_install = "frappe.utils.install.after_install"
