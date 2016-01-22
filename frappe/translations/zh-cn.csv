@@ -234,7 +234,7 @@ apps/frappe/frappe/utils/file_manager.py +43,Added {0},添加{0}
 DocType: Currency,Fraction Units,部分单位
 DocType: DocField,Type,类型
 DocType: Communication,Subject,主题
-DocType: Web Page,Parent Web Page,家长网页
+DocType: Web Page,Parent Web Page,父网页
 apps/frappe/frappe/core/doctype/docshare/docshare.py +36,User is mandatory for Share,用户是强制性的分享
 DocType: DocField,Hidden,隐
 apps/frappe/frappe/model/base_document.py +405,{0} must be set first,{0}必须首先设置
@@ -459,7 +459,7 @@ apps/frappe/frappe/config/setup.py +176,"States for workflow (e.g. Draft, Approv
 apps/frappe/frappe/public/js/frappe/form/link_selector.js +136,Set Quantity,设置数量
 DocType: Comment,Unsubscribed,已退订
 ,Data Import Tool,数据导入工具
-apps/frappe/frappe/core/doctype/user/user.py +423,Registration Details Emailed.,报名资料通过电子邮件发送。
+apps/frappe/frappe/core/doctype/user/user.py +423,Registration Details Emailed.,注册资料通过电子邮件发送。
 DocType: Workflow State,Stop,停止
 DocType: Top Bar Item,Link to the page you want to open. Leave blank if you want to make it a group parent.,链接到你想打开的页面。如果你想使之成为集团母公司留空。
 DocType: DocType,Is Single,是否单身
@@ -700,7 +700,7 @@ DocType: DocPerm,If user is the owner,如果用户是所有者
 DocType: Note,"Help: To link to another record in the system, use ""#Form/Note/[Note Name]"" as the Link URL. (don't use ""http://"")",帮助：要链接到系统中的另一个记录，请使用“#表单/记录/ [记录名]”作为链接。不要使用“http://”格式的链接。
 DocType: Communication,Delayed,延迟
 apps/frappe/frappe/config/setup.py +116,List of backups available for download,可供下载的备份目录
-apps/frappe/frappe/templates/pages/login.html +60,Sign up,报名
+apps/frappe/frappe/templates/pages/login.html +60,Sign up,注册
 apps/frappe/frappe/config/setup.py +222,Add fields to forms.,为表单添加字段。
 DocType: File,rgt,RGT
 apps/frappe/frappe/templates/pages/me.py +14,You need to be logged in to access this page.,您需要登录才能访问该页面。
@@ -879,7 +879,7 @@ DocType: Email Alert,Send alert if date matches this field's value,如果日期�
 DocType: Workflow,Transitions,转换
 DocType: User,Login After,登录后
 DocType: Print Format,Monospace,等宽
-apps/frappe/frappe/config/setup.py +143,Printing,印花
+apps/frappe/frappe/config/setup.py +143,Printing,打印
 DocType: Workflow State,thumbs-up,竖起大拇指
 apps/frappe/frappe/public/js/frappe/views/communication.js +15,Add Reply,添加回复
 DocType: DocPerm,DocPerm,文档权限
@@ -1072,7 +1072,7 @@ apps/frappe/frappe/core/doctype/error_snapshot/error_snapshot.js +9,Show Relapse
 DocType: Report,Report Builder,报表生成器
 DocType: Async Task,Task Name,任务名称
 DocType: Workflow,Workflow,工作流程
-apps/frappe/frappe/templates/pages/login.html +46,Not a user yet? Sign up,还不是用户？报名
+apps/frappe/frappe/templates/pages/login.html +46,Not a user yet? Sign up,注册
 DocType: Workflow State,Upload,上传
 DocType: System Settings,Date Format,日期格式
 apps/frappe/frappe/website/doctype/blog_post/blog_post_list.js +7,Not Published,未发布
@@ -1462,7 +1462,7 @@ apps/frappe/frappe/public/js/frappe/form/footer/attachments.js +83,Are you sure 
 apps/frappe/frappe/core/page/permission_manager/permission_manager_help.html +8,Setup > User,设置>用户
 apps/frappe/frappe/model/base_document.py +478,"{0}: '{1}' will get truncated, as max characters allowed is {2}",{0}：“{1}”将被截断，作为最大允许的字符是{2}
 apps/frappe/frappe/templates/emails/password_reset.html +6,Thank you,谢谢
-apps/frappe/frappe/public/js/frappe/form/save.js +11,Saving,节约
+apps/frappe/frappe/public/js/frappe/form/save.js +11,Saving,保存
 DocType: Print Settings,Print Style Preview,打印样式预览
 apps/frappe/frappe/core/doctype/file/test_file.py +81,Test_Folder,Test_Folder
 apps/frappe/frappe/website/doctype/web_form/web_form.py +155,You are not allowed to update this Web Form Document,你不允许更新此Web窗体文件
@@ -1634,7 +1634,7 @@ apps/frappe/frappe/print/page/print_format_builder/print_format_builder_start.ht
 apps/frappe/frappe/workflow/doctype/workflow/workflow.py +38,Created Custom Field {0} in {1},在{1}创建了自定义字段{0}
 DocType: System Settings,Time Zone,时区
 apps/frappe/frappe/core/page/user_permissions/user_permissions.js +31,A user can be permitted to multiple records of the same DocType.,一个用户可以被授权同一DocType(文档类型)的多条记录。
-DocType: Workflow State,Home,家
+DocType: Workflow State,Home,首页
 DocType: Workflow State,question-sign,question-sign
 DocType: Email Account,Add Signature,添加签名
 apps/frappe/frappe/email/doctype/email_unsubscribe/email_unsubscribe.py +38,Left this conversation,离开了这个谈话
