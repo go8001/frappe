@@ -1,4 +1,4 @@
-apps/frappe/frappe/custom/doctype/customize_form/customize_form.js +224,Press Esc to close,按Esc键关闭
+﻿apps/frappe/frappe/custom/doctype/customize_form/customize_form.js +224,Press Esc to close,按Esc键关闭
 apps/frappe/frappe/desk/form/assign_to.py +153,"A new task, {0}, has been assigned to you by {1}. {2}",一个新的任务，{0}，已分配给您{1}。 {2}
 apps/frappe/frappe/desk/page/messages/messages_main.html +12,Post,职位
 apps/frappe/frappe/config/setup.py +109,Rename many items by uploading a .csv file.,通过上传。csv文件重命名多个项目。
@@ -943,7 +943,7 @@ apps/frappe/frappe/desk/page/activity/activity_row.html +16,Logged in,已登录
 apps/frappe/frappe/email/doctype/email_account/email_account_list.js +6,Default Sending and Inbox,默认发送和收件账号
 DocType: Print Settings,Letter,信
 DocType: Async Task,Succeeded,成功
-apps/frappe/frappe/public/js/frappe/form/save.js +137,Mandatory fields required in {0},在需要的必填字段{0}
+apps/frappe/frappe/public/js/frappe/form/save.js +137,Mandatory fields required in {0},请输入必填信息 {0}
 apps/frappe/frappe/core/page/permission_manager/permission_manager.js +95,Reset Permissions for {0}?,重置权限{0} ？
 apps/frappe/frappe/permissions.py +326,{0} {1} not found,{0} {1}未找到
 apps/frappe/frappe/custom/doctype/customize_form/customize_form.js +214,Show a description below the field,在此字段下显示说明
