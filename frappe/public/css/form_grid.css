@@ -110,3 +110,8 @@
   margin-right: 8px;
   margin-bottom: 4px;
 }
+.btn-comment{
+    background-color: #2B33FF;
+    border-color: #0711FF;
+    color: white;
+}
