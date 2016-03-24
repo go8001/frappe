@@ -1760,7 +1760,7 @@ DocType: DocField,Print Width,打印宽度
 ,Setup Wizard,设置向导
 DocType: User,Allow user to login only before this hour (0-24),仅允许用户在此时前登录（0-24时）
 apps/frappe/frappe/core/doctype/file/file.py +108,Folder is mandatory,文件夹是必需的
-DocType: Email Alert,Reference Date,参考日期
+DocType: Email Alert,Reference Date,收文日期
 apps/frappe/frappe/print/page/print_format_builder/print_format_builder_sidebar.html +3,Filter...,过滤器...
 DocType: Workflow State,bold,加粗
 DocType: Async Task,Status,状态
